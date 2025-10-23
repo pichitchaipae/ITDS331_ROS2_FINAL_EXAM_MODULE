@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jao/Desktop/ros_ws/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/turtlebot3_simulations/turtlebot3_manipulation_gazebo
+CMAKE_SOURCE_DIR = /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/turtlebot3_simulations/turtlebot3_manipulation_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jao/Desktop/ros_ws/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_manipulation_gazebo
+CMAKE_BINARY_DIR = /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_manipulation_gazebo
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/jao/Desktop/ros_ws/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_manipulation_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jao/Desktop/ros_ws/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/turtlebot3_simulations/turtlebot3_manipulation_gazebo /home/jao/Desktop/ros_ws/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/turtlebot3_simulations/turtlebot3_manipulation_gazebo /home/jao/Desktop/ros_ws/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_manipulation_gazebo /home/jao/Desktop/ros_ws/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_manipulation_gazebo /home/jao/Desktop/ros_ws/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_manipulation_gazebo/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_manipulation_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/turtlebot3_simulations/turtlebot3_manipulation_gazebo /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/turtlebot3_simulations/turtlebot3_manipulation_gazebo /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_manipulation_gazebo /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_manipulation_gazebo /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_manipulation_gazebo/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

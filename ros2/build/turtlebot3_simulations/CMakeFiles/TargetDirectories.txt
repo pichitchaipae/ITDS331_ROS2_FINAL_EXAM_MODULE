@@ -1,0 +1,9 @@
+/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_simulations/CMakeFiles/uninstall.dir
+/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_simulations/CMakeFiles/turtlebot3_simulations_uninstall.dir
+/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_simulations/CMakeFiles/test.dir
+/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_simulations/CMakeFiles/edit_cache.dir
+/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_simulations/CMakeFiles/rebuild_cache.dir
+/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_simulations/CMakeFiles/list_install_components.dir
+/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_simulations/CMakeFiles/install.dir
+/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_simulations/CMakeFiles/install/local.dir
+/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_simulations/CMakeFiles/install/strip.dir

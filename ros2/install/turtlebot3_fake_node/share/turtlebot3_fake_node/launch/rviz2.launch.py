@@ -1,1 +1,1 @@
-/home/jao/Desktop/ros_ws/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/turtlebot3_simulations/turtlebot3_fake_node/launch/rviz2.launch.py
+/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/turtlebot3_simulations/turtlebot3_fake_node/launch/rviz2.launch.py
