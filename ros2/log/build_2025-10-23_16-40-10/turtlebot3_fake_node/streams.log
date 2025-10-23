@@ -1,0 +1,69 @@
+[0.010s] Invoking command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node
+[0.050s] -- The C compiler identification is GNU 13.3.0
+[0.087s] -- The CXX compiler identification is GNU 13.3.0
+[0.099s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.178s] -- Detecting CXX compiler ABI info
+[0.249s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.255s] -- Detecting CXX compile features - done
+[0.259s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.360s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.405s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.448s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.492s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.505s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.569s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.596s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.635s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.639s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.712s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.727s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.745s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.801s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.818s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.823s] -- Found tf2_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[0.865s] -- Found turtlebot3_msgs: 2.4.0 (/opt/ros/jazzy/share/turtlebot3_msgs/cmake)
+[0.948s] -- Configuring done (0.9s)
+[0.958s] -- Generating done (0.0s)
+[0.961s] -- Build files have been written to: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node
+[0.970s] Invoked command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node
+[0.972s] Invoking command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node -- -j32 -l32
+[1.014s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[6.602s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[6.845s] [100%] Built target turtlebot3_fake_node
+[6.856s] Invoked command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node -- -j32 -l32
+[6.863s] Invoking command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node
+[6.868s] -- Install configuration: ""
+[6.868s] -- Execute custom install script
+[6.869s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[6.876s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[6.883s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[6.890s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[6.896s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[6.904s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[6.911s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[6.918s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[6.926s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[6.933s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[6.940s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[6.947s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[6.954s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[6.961s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[6.968s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[6.975s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[6.982s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[6.988s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[6.995s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[7.002s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.010s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.016s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[7.024s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[7.031s] -- Symlinking: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[7.039s] Invoked command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node

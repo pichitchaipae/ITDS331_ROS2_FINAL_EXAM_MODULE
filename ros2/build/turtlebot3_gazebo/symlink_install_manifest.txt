@@ -3,6 +3,7 @@
 /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/libobstacle1.so
 /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/libobstacle2.so
 /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/my_navigation_launch.py
 /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
 /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
 /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py

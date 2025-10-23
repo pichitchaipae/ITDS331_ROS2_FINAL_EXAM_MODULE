@@ -1,0 +1,24 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+creating restaurant_robot.egg-info
+writing restaurant_robot.egg-info/PKG-INFO
+writing dependency_links to restaurant_robot.egg-info/dependency_links.txt
+writing entry points to restaurant_robot.egg-info/entry_points.txt
+writing requirements to restaurant_robot.egg-info/requires.txt
+writing top-level names to restaurant_robot.egg-info/top_level.txt
+writing manifest file 'restaurant_robot.egg-info/SOURCES.txt'
+reading manifest file 'restaurant_robot.egg-info/SOURCES.txt'
+writing manifest file 'restaurant_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot/lib/python3.12/site-packages/restaurant-robot.egg-link (link to .)
+Installing order_server script to /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot/lib/restaurant_robot
+
+Installed /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/restaurant_robot
+running symlink_data
+creating /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot/share/ament_index
+creating /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot/share/ament_index/resource_index
+creating /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot/share/ament_index/resource_index/packages
+symbolically linking /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/restaurant_robot/resource/restaurant_robot -> /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot/share/ament_index/resource_index/packages
+symbolically linking /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/restaurant_robot/package.xml -> /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot/share/restaurant_robot
