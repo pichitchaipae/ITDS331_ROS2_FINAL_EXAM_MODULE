@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='chair'>
+    <static>true</static>
+    <link name='chair_link'>
+      <!-- seat -->
+      <collision name='col_seat'>
+        <geometry><box><size>0.45 0.45 0.05</size></box></geometry>
+        <pose>0 0 0.45 0 0 0</pose>
+      </collision>
+      <visual name='vis_seat'>
+        <geometry><box><size>0.45 0.45 0.05</size></box></geometry>
+        <pose>0 0 0.45 0 0 0</pose>
+        <material><ambient>0.2 0.5 0.7 1</ambient></material>
+      </visual>
+      <!-- backrest -->
+      <collision name='col_back'>
+        <geometry><box><size>0.45 0.05 0.45</size></box></geometry>
+        <pose>0 -0.2 0.67 0 0 0</pose>
+      </collision>
+      <visual name='vis_back'>
+        <geometry><box><size>0.45 0.05 0.45</size></box></geometry>
+        <pose>0 -0.2 0.67 0 0 0</pose>
+        <material><ambient>0.2 0.5 0.7 1</ambient></material>
+      </visual>
+    </link>
+  </model>
+</sdf>

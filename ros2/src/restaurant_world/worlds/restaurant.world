@@ -1,0 +1,168 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <world name='restaurant_world'>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Walls: 8m x 6m interior -->
+    <model name='walls' static='true'>
+      <link name='walls_link'>
+        <!-- North wall -->
+        <collision name='north_col'>
+          <geometry><box><size>8 0.1 2.5</size></box></geometry>
+          <pose>0 3.0 1.25 0 0 0</pose>
+        </collision>
+        <visual name='north_vis'>
+          <geometry><box><size>8 0.1 2.5</size></box></geometry>
+          <pose>0 3.0 1.25 0 0 0</pose>
+          <material><ambient>0.8 0.8 0.8 1</ambient></material>
+        </visual>
+        <!-- South wall -->
+        <collision name='south_col'>
+          <geometry><box><size>8 0.1 2.5</size></box></geometry>
+          <pose>0 -3.0 1.25 0 0 0</pose>
+        </collision>
+        <visual name='south_vis'>
+          <geometry><box><size>8 0.1 2.5</size></box></geometry>
+          <pose>0 -3.0 1.25 0 0 0</pose>
+        </visual>
+        <!-- West wall -->
+        <collision name='west_col'>
+          <geometry><box><size>0.1 6 2.5</size></box></geometry>
+          <pose>-4.0 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name='west_vis'>
+          <geometry><box><size>0.1 6 2.5</size></box></geometry>
+          <pose>-4.0 0 1.25 0 0 0</pose>
+        </visual>
+        <!-- East wall (with 1.2m doorway at y=-2.5) -->
+        <collision name='east_upper_col'>
+          <geometry><box><size>0.1 4.8 2.5</size></box></geometry>
+          <pose>4.0 0.6 1.25 0 0 0</pose>
+        </collision>
+        <collision name='east_lower_col'>
+          <geometry><box><size>0.1 0.6 2.5</size></box></geometry>
+          <pose>4.0 -2.7 1.25 0 0 0</pose>
+        </collision>
+        <visual name='east_vis_a'>
+          <geometry><box><size>0.1 4.8 2.5</size></box></geometry>
+          <pose>4.0 0.6 1.25 0 0 0</pose>
+        </visual>
+        <visual name='east_vis_b'>
+          <geometry><box><size>0.1 0.6 2.5</size></box></geometry>
+          <pose>4.0 -2.7 1.25 0 0 0</pose>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Kitchen zone (label block) at (-2, 0) -->
+    <model name='kitchen_zone' static='true'>
+      <pose>-2 0 0 0 0 0</pose>
+      <link name='zone'>
+        <visual name='floor_mark'>
+          <geometry><box><size>2 2 0.02</size></box></geometry>
+          <pose>0 0 0.01 0 0 0</pose>
+          <material><ambient>0.7 0.7 0.9 1</ambient></material>
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>2 2 0.02</size></box></geometry>
+          <pose>0 0 0.01 0 0 0</pose>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Tables -->
+    <include>
+      <name>table1</name>
+      <uri>model://table</uri>
+      <pose>2 1 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>table2</name>
+      <uri>model://table</uri>
+      <pose>2 -1 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>table3</name>
+      <uri>model://table</uri>
+      <pose>0 2 0 0 0 0</pose>
+    </include>
+
+    <!-- Obstacles: chairs and plant pots -->
+    <include>
+      <name>chair_a</name>
+      <uri>model://chair</uri>
+      <pose>1.2 1.0 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <name>chair_b</name>
+      <uri>model://chair</uri>
+      <pose>2.8 1.0 0 0 0 -1.57</pose>
+    </include>
+    <include>
+      <name>chair_c</name>
+      <uri>model://chair</uri>
+      <pose>1.2 -1.0 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <name>plant_1</name>
+      <uri>model://plant_pot</uri>
+      <pose>0 0.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>plant_2</name>
+      <uri>model://plant_pot</uri>
+      <pose>-1.0 -1.5 0 0 0 0</pose>
+    </include>
+
+    <!-- Text labels for RViz coordination (visual only) -->
+    <model name='label_kitchen' static='true'>
+      <pose>-2 0 1 0 0 0</pose>
+      <link name='text'>
+        <visual name='txt'>
+          <geometry>
+            <text>
+              <string>KITCHEN</string>
+              <font>Arial</font>
+              <height>0.4</height>
+              <pose>0 0 0 0 0 0</pose>
+            </text>
+          </geometry>
+          <material><ambient>0.1 0.1 0.8 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+    <model name='label_t1' static='true'>
+      <pose>2 1 1 0 0 0</pose>
+      <link name='text'>
+        <visual name='txt'>
+          <geometry><text><string>Table 1</string><height>0.3</height></text></geometry>
+        </visual>
+      </link>
+    </model>
+    <model name='label_t2' static='true'>
+      <pose>2 -1 1 0 0 0</pose>
+      <link name='text'>
+        <visual name='txt'>
+          <geometry><text><string>Table 2</string><height>0.3</height></text></geometry>
+        </visual>
+      </link>
+    </model>
+    <model name='label_t3' static='true'>
+      <pose>0 2 1 0 0 0</pose>
+      <link name='text'>
+        <visual name='txt'>
+          <geometry><text><string>Table 3</string><height>0.3</height></text></geometry>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

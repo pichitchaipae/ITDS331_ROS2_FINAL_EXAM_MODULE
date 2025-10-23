@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='plant_pot'>
+    <static>true</static>
+    <link name='pot_link'>
+      <collision name='col_pot'>
+        <geometry><cylinder><radius>0.18</radius><length>0.4</length></cylinder></geometry>
+        <pose>0 0 0.2 0 0 0</pose>
+      </collision>
+      <visual name='vis_pot'>
+        <geometry><cylinder><radius>0.18</radius><length>0.4</length></cylinder></geometry>
+        <pose>0 0 0.2 0 0 0</pose>
+        <material><ambient>0.3 0.6 0.3 1</ambient></material>
+      </visual>
+    </link>
+  </model>
+</sdf>
