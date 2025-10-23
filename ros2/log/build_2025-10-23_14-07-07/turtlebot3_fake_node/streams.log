@@ -1,0 +1,4 @@
+[0.011s] Invoking command in '/home/jao/Desktop/ros_ws/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jao/Desktop/ros_ws/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_fake_node -- -j32 -l32
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[5.352s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[5.636s] [100%] Built target turtlebot3_fake_node
