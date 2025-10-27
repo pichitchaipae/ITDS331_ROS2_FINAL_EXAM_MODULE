@@ -138,6 +138,32 @@ a  s  d
 - **d**: Turn right
 - **s**: Move backward
 - **x**: Stop
+
+#### Complete Mission 1 Setup (All Terminals)
+Open **three terminals** simultaneously and run these commands:
+
+**Terminal 1: Restaurant World**
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+export TURTLEBOT3_MODEL=burger
+ros2 launch restaurant_world restaurant_world.launch.py
+```
+
+**Terminal 2: SLAM Mapping**
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
+```
+
+**Terminal 3: Teleoperation**
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+export TURTLEBOT3_MODEL=burger
+ros2 run turtlebot3_teleop teleop_keyboard
+```
 - **space**: Emergency stop
 
 #### Step 4: Map the Restaurant
