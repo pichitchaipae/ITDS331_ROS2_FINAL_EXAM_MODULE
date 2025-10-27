@@ -191,6 +191,36 @@ source install/setup.bash
 - Old Gazebo processes may cache previous versions
 - Ensures you're running the latest project state
 
+### 🚀 Complete Development Cycle: Fix → Rebuild → Test
+
+**After making changes to world files, models, or code:**
+
+1. **Kill running processes:**
+   ```bash
+   pkill -f "gz sim"
+   ```
+
+2. **Rebuild workspace:**
+   ```bash
+   cd ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2
+   colcon build --symlink-install
+   source install/setup.bash
+   ```
+
+3. **Test the changes:**
+   ```bash
+   ros2 launch restaurant_world restaurant_world.launch.py
+   ```
+
+**Quick verification commands:**
+```bash
+# Check if rebuild was successful
+ls ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/
+
+# Verify world file is updated
+head -5 ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/worlds/restaurant.world
+```
+
 ### Mission Workflows
 
 #### Mission 1: SLAM Map Creation
