@@ -77,28 +77,85 @@ source install/setup.bash
 
 ## Run / Examples
 
-Open the Restaurant world in Gazebo:
+### 🚀 Mission 1: Restaurant SLAM Mapping
+
+**⚠️ IMPORTANT:** Do NOT use `turtlebot3_world.launch.py` - it loads the wrong world!
+
+#### Step 1: Launch Restaurant World
+Open a new terminal and launch the restaurant environment:
 
 ```bash
-ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py world:=<path_to_world>/restaurant.world
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/setup.bash
+export TURTLEBOT3_MODEL=burger
+ros2 launch restaurant_world restaurant_world.launch.py
 ```
 
-Start SLAM (Cartographer example):
+This will:
+- Open Gazebo with the restaurant environment
+- Spawn TurtleBot3 Burger at the entrance door
+- Load all restaurant models (tables, chairs, kitchen equipment)
+
+#### Step 2: Start SLAM Mapping System
+Open a second terminal for the SLAM system:
 
 ```bash
-ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
-```
-
-Or use SLAM Toolbox (online async):
-
-```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/setup.bash
 ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
 ```
 
-Teleoperation (keyboard):
+This will:
+- Start SLAM Toolbox for real-time mapping
+- Process laser scans from TurtleBot3
+- Build a map as you drive
+
+#### Step 3: Control the Robot (Teleoperation)
+Open a third terminal for keyboard control:
 
 ```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/setup.bash
+export TURTLEBOT3_MODEL=burger
 ros2 run turtlebot3_teleop teleop_keyboard
+```
+
+**Keyboard Controls:**
+```
+   w
+a  s  d
+   x
+```
+
+- **w**: Move forward
+- **a**: Turn left
+- **d**: Turn right
+- **s**: Move backward
+- **x**: Stop
+- **space**: Emergency stop
+
+#### Step 4: Map the Restaurant
+Use the keyboard controls to drive the TurtleBot3 around the restaurant:
+
+1. **Start at Entrance** (robot spawns here)
+2. **Explore Dining Area** - drive around all tables and chairs
+3. **Enter Kitchen** - navigate through the service opening in the divider
+4. **Map Kitchen Zone** - cover the stove and counter areas
+5. **Complete Circuit** - return to the entrance
+
+**Tips:**
+- Drive slowly for accurate mapping
+- Get close to walls and obstacles
+- Cover all colored floor zones (entrance, dining, kitchen)
+- The SLAM system builds the map automatically
+
+### ❌ WRONG Commands (Do Not Use)
+```bash
+# WRONG - loads default TurtleBot3 world, not restaurant!
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+
+# WRONG - old Cartographer method
+ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
 ```
 
 ## Saving maps

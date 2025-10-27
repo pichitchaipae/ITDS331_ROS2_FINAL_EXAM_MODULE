@@ -11,7 +11,11 @@
       <visual name='vis_seat'>
         <geometry><box><size>0.45 0.45 0.05</size></box></geometry>
         <pose>0 0 0.45 0 0 0</pose>
-        <material><ambient>0.2 0.5 0.7 1</ambient></material>
+        <material>
+          <ambient>0.4 0.2 0.6 1</ambient>
+          <diffuse>0.5 0.3 0.7 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
       </visual>
       <!-- backrest -->
       <collision name='col_back'>
@@ -21,7 +25,63 @@
       <visual name='vis_back'>
         <geometry><box><size>0.45 0.05 0.45</size></box></geometry>
         <pose>0 -0.2 0.67 0 0 0</pose>
-        <material><ambient>0.2 0.5 0.7 1</ambient></material>
+        <material>
+          <ambient>0.4 0.2 0.6 1</ambient>
+          <diffuse>0.5 0.3 0.7 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+      </visual>
+      <collision name='col_leg1'>
+        <geometry><cylinder><radius>0.02</radius><length>0.4</length></cylinder></geometry>
+        <pose>0.18 0.18 0.2 0 0 0</pose>
+      </collision>
+      <visual name='vis_leg1'>
+        <geometry><cylinder><radius>0.02</radius><length>0.4</length></cylinder></geometry>
+        <pose>0.18 0.18 0.2 0 0 0</pose>
+        <material>
+          <ambient>0.6 0.6 0.7 1</ambient>
+          <diffuse>0.5 0.5 0.6 1</diffuse>
+          <specular>0.8 0.8 0.9 1</specular>
+        </material>
+      </visual>
+      <collision name='col_leg2'>
+        <geometry><cylinder><radius>0.02</radius><length>0.4</length></cylinder></geometry>
+        <pose>-0.18 0.18 0.2 0 0 0</pose>
+      </collision>
+      <visual name='vis_leg2'>
+        <geometry><cylinder><radius>0.02</radius><length>0.4</length></cylinder></geometry>
+        <pose>-0.18 0.18 0.2 0 0 0</pose>
+        <material>
+          <ambient>0.6 0.6 0.7 1</ambient>
+          <diffuse>0.5 0.5 0.6 1</diffuse>
+          <specular>0.8 0.8 0.9 1</specular>
+        </material>
+      </visual>
+      <collision name='col_leg3'>
+        <geometry><cylinder><radius>0.02</radius><length>0.4</length></cylinder></geometry>
+        <pose>0.18 -0.18 0.2 0 0 0</pose>
+      </collision>
+      <visual name='vis_leg3'>
+        <geometry><cylinder><radius>0.02</radius><length>0.4</length></cylinder></geometry>
+        <pose>0.18 -0.18 0.2 0 0 0</pose>
+        <material>
+          <ambient>0.6 0.6 0.7 1</ambient>
+          <diffuse>0.5 0.5 0.6 1</diffuse>
+          <specular>0.8 0.8 0.9 1</specular>
+        </material>
+      </visual>
+      <collision name='col_leg4'>
+        <geometry><cylinder><radius>0.02</radius><length>0.4</length></cylinder></geometry>
+        <pose>-0.18 -0.18 0.2 0 0 0</pose>
+      </collision>
+      <visual name='vis_leg4'>
+        <geometry><cylinder><radius>0.02</radius><length>0.4</length></cylinder></geometry>
+        <pose>-0.18 -0.18 0.2 0 0 0</pose>
+        <material>
+          <ambient>0.6 0.6 0.7 1</ambient>
+          <diffuse>0.5 0.5 0.6 1</diffuse>
+          <specular>0.8 0.8 0.9 1</specular>
+        </material>
       </visual>
     </link>
   </model>
