@@ -66,13 +66,14 @@ echo 'source /opt/ros/jazzy/setup.bash' >> ~/.bashrc
 Then, from the workspace root (`~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE`) build the workspace:
 
 ```bash
+cd ros2
 colcon build --symlink-install
 ```
 
 After a successful build source the install overlay before running packages in the workspace:
 
 ```bash
-source install/setup.bash
+source ros2/install/setup.bash
 ```
 
 ## Run / Examples
@@ -86,7 +87,7 @@ Open a new terminal and launch the restaurant environment:
 
 ```bash
 source /opt/ros/jazzy/setup.bash
-source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
 export TURTLEBOT3_MODEL=burger
 ros2 launch restaurant_world restaurant_world.launch.py
 ```
@@ -101,7 +102,7 @@ Open a second terminal for the SLAM system:
 
 ```bash
 source /opt/ros/jazzy/setup.bash
-source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
 ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
 ```
 
@@ -115,7 +116,7 @@ Open a third terminal for keyboard control:
 
 ```bash
 source /opt/ros/jazzy/setup.bash
-source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
 export TURTLEBOT3_MODEL=burger
 ros2 run turtlebot3_teleop teleop_keyboard
 ```
@@ -164,7 +165,7 @@ After exploring, open a new terminal, source both ROS 2 and the workspace instal
 
 ```bash
 source /opt/ros/jazzy/setup.bash
-source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
 ros2 run nav2_map_server map_saver_cli -f ~/map_restaurant
 # creates: ~/map_restaurant.yaml and ~/map_restaurant.pgm
 ```
@@ -268,7 +269,7 @@ Notes:
 
 ```bash
 source /opt/ros/jazzy/setup.bash
-source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
 colcon build
 ```
 
