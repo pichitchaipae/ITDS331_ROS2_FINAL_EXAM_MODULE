@@ -97,6 +97,11 @@ This will:
 - Spawn TurtleBot3 Burger at the entrance door
 - Load all restaurant models (tables, chairs, kitchen equipment)
 
+**⚠️ Troubleshooting:** If you see the wrong world loading, kill old Gazebo processes:
+```bash
+pkill -f "gz sim"
+```
+
 #### Step 2: Start SLAM Mapping System
 Open a second terminal for the SLAM system:
 
