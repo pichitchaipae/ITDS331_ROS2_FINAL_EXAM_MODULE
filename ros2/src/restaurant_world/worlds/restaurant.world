@@ -197,11 +197,11 @@
     <model name='kitchen_zone'>
       <static>true</static>
       <allow_auto_disable>false</allow_auto_disable>
-      <pose>-2.5 0 0.05 0 0 0</pose>
+      <pose>-2.5 0 -0.01 0 0 0</pose>
       <link name='zone'>
         <kinematic>true</kinematic>
         <visual name='floor_mark'>
-          <geometry><box><size>2.8 5.8 0.02</size></box></geometry>
+          <geometry><box><size>3.4 5.8 0.02</size></box></geometry>
           <pose>0 0 0 0 0 0</pose>
           <material>
             <ambient>0.8 0.6 0.4 1</ambient>
@@ -210,7 +210,7 @@
           </material>
         </visual>
         <collision name='col'>
-          <geometry><box><size>2.8 5.8 0.02</size></box></geometry>
+          <geometry><box><size>3.4 5.8 0.02</size></box></geometry>
           <pose>0 0 0 0 0 0</pose>
         </collision>
       </link>
@@ -220,11 +220,11 @@
     <model name='dining_zone'>
       <static>true</static>
       <allow_auto_disable>false</allow_auto_disable>
-      <pose>1.8 0 0.05 0 0 0</pose>
+      <pose>1.975 0 -0.01 0 0 0</pose>
       <link name='zone'>
         <kinematic>true</kinematic>
         <visual name='floor_mark'>
-          <geometry><box><size>4.2 5.8 0.02</size></box></geometry>
+          <geometry><box><size>4.55 5.8 0.02</size></box></geometry>
           <pose>0 0 0 0 0 0</pose>
           <material>
             <ambient>0.7 0.8 0.9 1</ambient>
@@ -233,7 +233,7 @@
           </material>
         </visual>
         <collision name='col'>
-          <geometry><box><size>4.2 5.8 0.02</size></box></geometry>
+          <geometry><box><size>4.55 5.8 0.02</size></box></geometry>
           <pose>0 0 0 0 0 0</pose>
         </collision>
       </link>
@@ -243,7 +243,7 @@
     <model name='entrance_zone'>
       <static>true</static>
       <allow_auto_disable>false</allow_auto_disable>
-      <pose>3.5 -2 0.05 0 0 0</pose>
+      <pose>3.5 -2 -0.01 0 0 0</pose>
       <link name='zone'>
         <kinematic>true</kinematic>
         <visual name='floor_mark'>
