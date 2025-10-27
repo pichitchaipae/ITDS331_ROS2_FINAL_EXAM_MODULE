@@ -196,11 +196,13 @@
     <!-- Kitchen zone - left side -->
     <model name='kitchen_zone'>
       <static>true</static>
-      <pose>-2.5 0 0 0 0 0</pose>
+      <allow_auto_disable>false</allow_auto_disable>
+      <pose>-2.5 0 0.05 0 0 0</pose>
       <link name='zone'>
+        <kinematic>true</kinematic>
         <visual name='floor_mark'>
           <geometry><box><size>2.8 5.8 0.02</size></box></geometry>
-          <pose>0 0 0.01 0 0 0</pose>
+          <pose>0 0 0 0 0 0</pose>
           <material>
             <ambient>0.8 0.6 0.4 1</ambient>
             <diffuse>0.9 0.7 0.5 1</diffuse>
@@ -209,7 +211,7 @@
         </visual>
         <collision name='col'>
           <geometry><box><size>2.8 5.8 0.02</size></box></geometry>
-          <pose>0 0 0.01 0 0 0</pose>
+          <pose>0 0 0 0 0 0</pose>
         </collision>
       </link>
     </model>
@@ -217,11 +219,13 @@
     <!-- Dining zone - right side -->
     <model name='dining_zone'>
       <static>true</static>
-      <pose>1.8 0 0 0 0 0</pose>
+      <allow_auto_disable>false</allow_auto_disable>
+      <pose>1.8 0 0.05 0 0 0</pose>
       <link name='zone'>
+        <kinematic>true</kinematic>
         <visual name='floor_mark'>
           <geometry><box><size>4.2 5.8 0.02</size></box></geometry>
-          <pose>0 0 0.01 0 0 0</pose>
+          <pose>0 0 0 0 0 0</pose>
           <material>
             <ambient>0.7 0.8 0.9 1</ambient>
             <diffuse>0.8 0.9 1.0 1</diffuse>
@@ -230,7 +234,7 @@
         </visual>
         <collision name='col'>
           <geometry><box><size>4.2 5.8 0.02</size></box></geometry>
-          <pose>0 0 0.01 0 0 0</pose>
+          <pose>0 0 0 0 0 0</pose>
         </collision>
       </link>
     </model>
@@ -238,11 +242,13 @@
     <!-- Entrance zone - near door -->
     <model name='entrance_zone'>
       <static>true</static>
-      <pose>3.5 -2 0 0 0 0</pose>
+      <allow_auto_disable>false</allow_auto_disable>
+      <pose>3.5 -2 0.05 0 0 0</pose>
       <link name='zone'>
+        <kinematic>true</kinematic>
         <visual name='floor_mark'>
           <geometry><box><size>1.5 1.5 0.02</size></box></geometry>
-          <pose>0 0 0.01 0 0 0</pose>
+          <pose>0 0 0 0 0 0</pose>
           <material>
             <ambient>0.9 0.9 0.7 1</ambient>
             <diffuse>1.0 1.0 0.8 1</diffuse>
@@ -251,7 +257,7 @@
         </visual>
         <collision name='col'>
           <geometry><box><size>1.5 1.5 0.02</size></box></geometry>
-          <pose>0 0 0.01 0 0 0</pose>
+          <pose>0 0 0 0 0 0</pose>
         </collision>
       </link>
     </model>
