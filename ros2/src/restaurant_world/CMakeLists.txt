@@ -14,6 +14,7 @@ install(
     launch
     worlds 
     models 
+    params
     maps
   DESTINATION share/${PROJECT_NAME}/
 )

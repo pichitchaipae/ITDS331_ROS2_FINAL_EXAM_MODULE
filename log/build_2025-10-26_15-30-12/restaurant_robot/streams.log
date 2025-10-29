@@ -1,0 +1,21 @@
+[0.429s] Invoking command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/restaurant_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/restaurant_robot build --build-base /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_robot/build install --record /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_robot/install.log --single-version-externally-managed install_data
+[0.562s] running egg_info
+[0.570s] writing ../../../build/restaurant_robot/restaurant_robot.egg-info/PKG-INFO
+[0.571s] writing dependency_links to ../../../build/restaurant_robot/restaurant_robot.egg-info/dependency_links.txt
+[0.571s] writing entry points to ../../../build/restaurant_robot/restaurant_robot.egg-info/entry_points.txt
+[0.571s] writing requirements to ../../../build/restaurant_robot/restaurant_robot.egg-info/requires.txt
+[0.571s] writing top-level names to ../../../build/restaurant_robot/restaurant_robot.egg-info/top_level.txt
+[0.589s] reading manifest file '../../../build/restaurant_robot/restaurant_robot.egg-info/SOURCES.txt'
+[0.589s] writing manifest file '../../../build/restaurant_robot/restaurant_robot.egg-info/SOURCES.txt'
+[0.589s] running build
+[0.589s] running build_py
+[0.589s] running install
+[0.593s] running install_lib
+[0.602s] running install_data
+[0.602s] running install_egg_info
+[0.613s] removing '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/python3.12/site-packages/restaurant_robot-0.0.0-py3.12.egg-info' (and everything under it)
+[0.613s] Copying ../../../build/restaurant_robot/restaurant_robot.egg-info to /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/python3.12/site-packages/restaurant_robot-0.0.0-py3.12.egg-info
+[0.614s] running install_scripts
+[0.681s] Installing order_server script to /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/restaurant_robot
+[0.681s] writing list of installed files to '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_robot/install.log'
+[0.696s] Invoked command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/restaurant_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/restaurant_robot build --build-base /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_robot/build install --record /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_robot/install.log --single-version-externally-managed install_data

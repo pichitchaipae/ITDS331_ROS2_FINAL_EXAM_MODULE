@@ -1,4 +1,5 @@
 from setuptools import find_packages, setup
+import os
 
 package_name = 'restaurant_robot'
 
@@ -10,6 +11,13 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        # Include launch files
+        ('share/' + package_name + '/launch', ['launch/online_async_launch.py']),
+        # Include config files
+        ('share/' + package_name + '/config', [
+            'config/mapper_params_online_async.yaml',
+            'config/slam.rviz'
+        ]),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

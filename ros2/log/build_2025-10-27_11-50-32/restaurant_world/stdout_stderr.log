@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+    CATKIN_SYMLINK_INSTALL
+
+[0m
+-- Build files have been written to: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/restaurant_world
+-- Install configuration: ""
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/launch
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/launch/restaurant_world.launch.py
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/worlds
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/worlds/restaurant.world
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/models
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/models/plant_pot
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/models/plant_pot/model.sdf
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/models/plant_pot/model.config
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/models/table
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/models/table/model.sdf
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/models/table/model.config
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/models/chair
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/models/chair/model.sdf
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/models/chair/model.config
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/maps
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/maps/restaurant_map.yaml
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/maps/restaurant_map.pgm
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/ament_index/resource_index/package_run_dependencies/restaurant_world
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/ament_index/resource_index/parent_prefix_path/restaurant_world
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/environment/ament_prefix_path.sh
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/environment/ament_prefix_path.dsv
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/environment/path.sh
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/environment/path.dsv
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/local_setup.bash
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/local_setup.sh
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/local_setup.zsh
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/local_setup.dsv
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/package.dsv
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/ament_index/resource_index/packages/restaurant_world
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/cmake/restaurant_worldConfig.cmake
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/cmake/restaurant_worldConfig-version.cmake
+-- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_world/share/restaurant_world/package.xml

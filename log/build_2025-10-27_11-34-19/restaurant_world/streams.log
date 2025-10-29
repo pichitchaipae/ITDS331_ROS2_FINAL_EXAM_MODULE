@@ -1,0 +1,49 @@
+[0.112s] Invoking command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/restaurant_world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world
+[0.140s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.331s] -- Configuring done (0.2s)
+[0.335s] -- Generating done (0.0s)
+[0.336s] [33mCMake Warning:
+[0.336s]   Manually-specified variables were not used by the project:
+[0.336s] 
+[0.336s]     CATKIN_SYMLINK_INSTALL
+[0.336s] 
+[0.336s] [0m
+[0.337s] -- Build files have been written to: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world
+[0.340s] Invoked command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/restaurant_world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world
+[0.341s] Invoking command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world -- -j32 -l32
+[0.369s] Invoked command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world -- -j32 -l32
+[0.376s] Invoking command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world
+[0.381s] -- Install configuration: ""
+[0.381s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/worlds
+[0.381s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/worlds/restaurant.world
+[0.381s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/models
+[0.381s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/models/plant_pot
+[0.381s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/models/plant_pot/model.sdf
+[0.381s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/models/plant_pot/model.config
+[0.381s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/models/table
+[0.381s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/models/table/model.sdf
+[0.381s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/models/table/model.config
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/models/chair
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/models/chair/model.sdf
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/models/chair/model.config
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/launch
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/launch/restaurant_world.launch.py
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/maps
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/maps/restaurant_map.yaml
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/maps/restaurant_map.pgm
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/ament_index/resource_index/package_run_dependencies/restaurant_world
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/ament_index/resource_index/parent_prefix_path/restaurant_world
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/environment/ament_prefix_path.sh
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/environment/ament_prefix_path.dsv
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/environment/path.sh
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/environment/path.dsv
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/local_setup.bash
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/local_setup.sh
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/local_setup.zsh
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/local_setup.dsv
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/package.dsv
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/ament_index/resource_index/packages/restaurant_world
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/cmake/restaurant_worldConfig.cmake
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/cmake/restaurant_worldConfig-version.cmake
+[0.382s] -- Up-to-date: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/package.xml
+[0.383s] Invoked command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world

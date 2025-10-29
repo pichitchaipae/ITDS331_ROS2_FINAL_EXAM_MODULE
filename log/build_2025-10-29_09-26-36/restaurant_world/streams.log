@@ -1,0 +1,63 @@
+[0.007s] Invoking command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world': CMAKE_PREFIX_PATH=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/restaurant_world -DCMAKE_INSTALL_PREFIX=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world
+[0.047s] -- The C compiler identification is GNU 13.3.0
+[0.085s] -- The CXX compiler identification is GNU 13.3.0
+[0.098s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.169s] -- Detecting C compile features
+[0.169s] -- Detecting C compile features - done
+[0.176s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.259s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.364s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.503s] -- Configuring done (0.5s)
+[0.505s] -- Generating done (0.0s)
+[0.507s] -- Build files have been written to: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world
+[0.511s] Invoked command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world' returned '0': CMAKE_PREFIX_PATH=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/restaurant_world -DCMAKE_INSTALL_PREFIX=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world
+[0.512s] Invoking command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world': CMAKE_PREFIX_PATH=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world -- -j32 -l32
+[0.543s] Invoked command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world' returned '0': CMAKE_PREFIX_PATH=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world -- -j32 -l32
+[0.551s] Invoking command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world': CMAKE_PREFIX_PATH=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world
+[0.557s] -- Install configuration: ""
+[0.557s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//launch
+[0.558s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//launch/restaurant_world.launch.py
+[0.558s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//worlds
+[0.558s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//worlds/restaurant.world
+[0.558s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models
+[0.558s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/plant_pot
+[0.558s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/plant_pot/model.sdf
+[0.558s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/plant_pot/model.config
+[0.558s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/turtlebot3_burger
+[0.558s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/turtlebot3_burger/model.sdf
+[0.558s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/turtlebot3_burger/model.config
+[0.558s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/turtlebot3_burger/model-1_4.sdf
+[0.558s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/table
+[0.559s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/table/model.sdf
+[0.559s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/table/model.config
+[0.559s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/chair
+[0.559s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/chair/model.sdf
+[0.559s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//models/chair/model.config
+[0.559s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//params
+[0.559s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//params/turtlebot3_burger_custom_bridge.yaml
+[0.559s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//params/turtlebot3_burger_bridge.yaml
+[0.559s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//maps
+[0.559s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//maps/restaurant_map.yaml
+[0.559s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world//maps/restaurant_map.pgm
+[0.560s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/ament_index/resource_index/package_run_dependencies/restaurant_world
+[0.560s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/ament_index/resource_index/parent_prefix_path/restaurant_world
+[0.560s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/environment/ament_prefix_path.sh
+[0.560s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/environment/ament_prefix_path.dsv
+[0.560s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/environment/path.sh
+[0.561s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/environment/path.dsv
+[0.561s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/local_setup.bash
+[0.561s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/local_setup.sh
+[0.561s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/local_setup.zsh
+[0.561s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/local_setup.dsv
+[0.561s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/package.dsv
+[0.562s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/ament_index/resource_index/packages/restaurant_world
+[0.562s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/cmake/restaurant_worldConfig.cmake
+[0.562s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/cmake/restaurant_worldConfig-version.cmake
+[0.562s] -- Installing: /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world/share/restaurant_world/package.xml
+[0.564s] Invoked command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world' returned '0': CMAKE_PREFIX_PATH=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world

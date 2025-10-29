@@ -1,0 +1,32 @@
+[0.086s] Invoking command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/restaurant_world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world
+[0.166s] -- The C compiler identification is GNU 13.3.0
+[0.223s] -- The CXX compiler identification is GNU 13.3.0
+[0.236s] -- Detecting C compiler ABI info
+[0.293s] -- Detecting C compiler ABI info - done
+[0.298s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.298s] -- Detecting C compile features
+[0.298s] -- Detecting C compile features - done
+[0.306s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.373s] -- Detecting CXX compile features
+[0.373s] -- Detecting CXX compile features - done
+[0.381s] [31mCMake Error at CMakeLists.txt:3 (find_package):
+[0.381s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.381s]   has asked CMake to find a package configuration file provided by
+[0.381s]   "ament_cmake", but CMake did not find one.
+[0.381s] 
+[0.381s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.381s]   any of the following names:
+[0.381s] 
+[0.381s]     ament_cmakeConfig.cmake
+[0.381s]     ament_cmake-config.cmake
+[0.381s] 
+[0.381s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.381s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.382s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.382s]   has been installed.
+[0.382s] 
+[0.382s] [0m
+[0.382s] -- Configuring incomplete, errors occurred!
+[0.385s] Invoked command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_world' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/src/restaurant_world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_world

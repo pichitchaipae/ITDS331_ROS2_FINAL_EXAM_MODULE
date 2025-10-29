@@ -1,1 +1,0 @@
-/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/turtlebot3_gazebo/ament_cmake_environment_hooks/local_setup.zsh

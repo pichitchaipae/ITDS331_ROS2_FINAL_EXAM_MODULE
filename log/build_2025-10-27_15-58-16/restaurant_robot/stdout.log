@@ -1,0 +1,30 @@
+running develop
+Removing /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/python3.12/site-packages/restaurant-robot.egg-link (link to .)
+running egg_info
+writing ../../../build/restaurant_robot/restaurant_robot.egg-info/PKG-INFO
+writing dependency_links to ../../../build/restaurant_robot/restaurant_robot.egg-info/dependency_links.txt
+writing entry points to ../../../build/restaurant_robot/restaurant_robot.egg-info/entry_points.txt
+writing requirements to ../../../build/restaurant_robot/restaurant_robot.egg-info/requires.txt
+writing top-level names to ../../../build/restaurant_robot/restaurant_robot.egg-info/top_level.txt
+reading manifest file '../../../build/restaurant_robot/restaurant_robot.egg-info/SOURCES.txt'
+writing manifest file '../../../build/restaurant_robot/restaurant_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/python3.12/site-packages/restaurant_robot
+copying /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_robot/build/lib/restaurant_robot/order_server.py -> /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/python3.12/site-packages/restaurant_robot
+copying /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_robot/build/lib/restaurant_robot/__init__.py -> /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/python3.12/site-packages/restaurant_robot
+byte-compiling /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/python3.12/site-packages/restaurant_robot/order_server.py to order_server.cpython-312.pyc
+byte-compiling /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/python3.12/site-packages/restaurant_robot/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/restaurant_robot -> /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/share/restaurant_robot
+copying launch/online_async_launch.py -> /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/share/restaurant_robot/launch
+copying config/mapper_params_online_async.yaml -> /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/share/restaurant_robot/config
+copying config/slam.rviz -> /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/share/restaurant_robot/config
+running install_egg_info
+Copying ../../../build/restaurant_robot/restaurant_robot.egg-info to /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/python3.12/site-packages/restaurant_robot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing order_server script to /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/install/restaurant_robot/lib/restaurant_robot
+writing list of installed files to '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/build/restaurant_robot/install.log'

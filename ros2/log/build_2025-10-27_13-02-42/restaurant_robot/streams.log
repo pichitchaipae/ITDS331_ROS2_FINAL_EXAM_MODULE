@@ -1,0 +1,17 @@
+[0.443s] Invoking command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/restaurant_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/restaurant_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/restaurant_robot/build --no-deps symlink_data
+[0.619s] running develop
+[0.724s] running egg_info
+[0.735s] writing restaurant_robot.egg-info/PKG-INFO
+[0.736s] writing dependency_links to restaurant_robot.egg-info/dependency_links.txt
+[0.736s] writing entry points to restaurant_robot.egg-info/entry_points.txt
+[0.736s] writing requirements to restaurant_robot.egg-info/requires.txt
+[0.736s] writing top-level names to restaurant_robot.egg-info/top_level.txt
+[0.755s] reading manifest file 'restaurant_robot.egg-info/SOURCES.txt'
+[0.756s] writing manifest file 'restaurant_robot.egg-info/SOURCES.txt'
+[0.766s] running build_ext
+[0.766s] Creating /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot/lib/python3.12/site-packages/restaurant-robot.egg-link (link to .)
+[0.766s] Installing order_server script to /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot/lib/restaurant_robot
+[0.766s] 
+[0.766s] Installed /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/restaurant_robot
+[0.767s] running symlink_data
+[0.786s] Invoked command in '/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/restaurant_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/restaurant_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/restaurant_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jao/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/build/restaurant_robot/build --no-deps symlink_data

@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='table'>
+    <static>true</static>
+    <link name='table_link'>
+      <collision name='col_top'>
+        <geometry><cylinder><radius>0.35</radius><length>0.04</length></cylinder></geometry>
+        <pose>0 0 0.78 0 0 0</pose>
+      </collision>
+      <visual name='vis_top'>
+        <geometry><cylinder><radius>0.35</radius><length>0.04</length></cylinder></geometry>
+        <pose>0 0 0.78 0 0 0</pose>
+        <material>
+          <ambient>0.9 0.9 0.8 1</ambient>
+          <diffuse>0.8 0.8 0.7 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+      </visual>
+      <collision name='col_leg'>
+        <geometry><cylinder><radius>0.04</radius><length>0.76</length></cylinder></geometry>
+        <pose>0 0 0.38 0 0 0</pose>
+      </collision>
+      <visual name='vis_leg'>
+        <geometry><cylinder><radius>0.04</radius><length>0.76</length></cylinder></geometry>
+        <pose>0 0 0.38 0 0 0</pose>
+        <material>
+          <ambient>0.8 0.8 0.9 1</ambient>
+          <diffuse>0.7 0.7 0.8 1</diffuse>
+          <specular>0.9 0.9 0.9 1</specular>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
