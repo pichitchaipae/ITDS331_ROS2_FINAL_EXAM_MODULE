@@ -240,6 +240,7 @@ Open a second terminal for the Nav2 navigation stack:
 ```bash
 source /opt/ros/jazzy/setup.bash
 source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map_restaurant.yaml
 ```
 
@@ -264,6 +265,7 @@ ros2 launch restaurant_world restaurant_world.launch.py
 ```bash
 source /opt/ros/jazzy/setup.bash
 source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map_restaurant.yaml
 ```
 
