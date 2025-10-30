@@ -329,6 +329,37 @@ ros2 launch --show-args restaurant_world restaurant_world.launch.py
 - Verify simulation performance
 - Check navigation stack integration
 
+### File reuse and deduplication policy (MANDATORY)
+
+To keep this repository clean and consistent, follow these rules whenever adding or modifying code or assets:
+
+- Search before creating: Before adding any new file (launch, config, RViz, node, world), search the repo for an existing file with the same or similar purpose. If one exists, edit that file instead of creating a new one.
+- Choose a single canonical file: If multiple similar files already exist and share content or the same errors, select ONE best candidate and fix that file. Do NOT create another variant. Prefer the file that:
+   - Lives under `ros2/src/<package>/(launch|config|src)` (never under build/install/log)
+   - Is referenced by README or other launch files
+   - Is included in `restaurant_robot/setup.py` `data_files` for install
+- Do not duplicate functionality: Avoid creating near-identical RViz configs, launchers, or nodes. Extend the canonical file via parameters/arguments where possible.
+- Cleanup guidance: If feasible, remove or deprecate redundant duplicates in a follow-up commit. If removal is risky, add a comment header to non-canonical files: `# DEPRECATED: use <path/to/canonical>`.
+- Validate after edits:
+   - Rebuild with colcon, source the overlay, and launch the edited canonical file
+   - Ensure build/type checks pass and runtime topics/frames appear as expected
+
+Canonical files for this project (use these rather than creating new ones):
+- World launcher: `restaurant_world/launch/restaurant_world.launch.py`
+- RViz for mapping: `restaurant_robot/launch/rviz_slam.launch.py` with `restaurant_robot/config/slam_mapping.rviz`
+- Static TFs: `restaurant_robot/launch/tb3_static_tf.launch.py`
+- SLAM bring-up: use upstream `slam_toolbox` launch files; don’t duplicate them here
+
+Examples of what not to do:
+- Don’t add another RViz config if `slam_mapping.rviz` already fits; update it instead.
+- Don’t create a second world launcher; fix `restaurant_world.launch.py`.
+- Don’t duplicate parameter bridges; rely on the official TurtleBot3 spawner/bridges unless a clear gap is identified.
+
+Acceptance criteria for changes under this policy:
+- No new files added when a same/similar file already exists for the purpose
+- Only the canonical file is modified and launches successfully
+- Quality gates: Build PASS, Lint/Typecheck PASS, Runtime sanity PASS
+
 ## Learning Resources
 
 ### ROS 2 Documentation

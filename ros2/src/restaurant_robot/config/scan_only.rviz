@@ -1,0 +1,5 @@
+Panels:
+  - Class: rviz_common/Displays
+    # DEPRECATED: Use restaurant_robot/config/slam_mapping.rviz instead.
+    # This file remains only for historical reference and is not installed.
+    Property Tree Widget:
