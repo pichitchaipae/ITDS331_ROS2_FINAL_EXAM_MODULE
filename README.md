@@ -204,6 +204,115 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
 ```
 
+### 🚀 Mission 2: Autonomous Navigation Testing
+
+**Prerequisites**: Complete Mission 1 and save the map (`~/map_restaurant.yaml` and `~/map_restaurant.pgm`).
+
+**Objective**: Test autonomous navigation using the saved map from Mission 1. The robot should navigate to designated points (Table 1, Kitchen, Table 3) while avoiding obstacles.
+
+**Steps**:
+1. Close SLAM nodes and launch Navigation system (Nav2) using the saved map
+2. Set the robot's initial pose correctly in RViz2
+3. Test navigation goals in sequence:
+   - From start position to Table 1
+   - From Table 1 to Kitchen zone
+   - From Kitchen zone to Table 3
+4. Observe robot movement to ensure obstacle avoidance
+
+**Evaluation Criteria**:
+- **System Setup**: Successfully launch Navigation system and set initial pose
+- **Movement**: Robot reaches all 3 designated goal points successfully
+- **Obstacle Avoidance**: Robot plans safe paths avoiding known obstacles in the map and any new obstacles
+
+#### Step 1: Launch Restaurant World
+Open a new terminal and launch the restaurant environment (same as Mission 1):
+
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+export TURTLEBOT3_MODEL=burger
+ros2 launch restaurant_world restaurant_world.launch.py
+```
+
+#### Step 2: Start Navigation System with Saved Map
+Open a second terminal for the Nav2 navigation stack:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map_restaurant.yaml
+```
+
+This will:
+- Load the saved map from Mission 1
+- Start Nav2 components: AMCL (localization), NavFn/Global Planner, DWA/Local Planner
+- Publish costmaps and navigation topics
+
+#### Step 3: Open RViz for Navigation Visualization
+Open a third terminal for RViz with navigation displays:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+ros2 launch turtlebot3_navigation2 rviz.launch.py
+```
+
+This will:
+- Open RViz with navigation-specific displays
+- Show global/local costmaps, planned paths, and goal poses
+
+#### Complete Mission 2 Setup (All Terminals)
+Open **three terminals** simultaneously and run these commands:
+
+**Terminal 1: Restaurant World**
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+export TURTLEBOT3_MODEL=burger
+ros2 launch restaurant_world restaurant_world.launch.py
+```
+
+**Terminal 2: Navigation System**
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map_restaurant.yaml
+```
+
+**Terminal 3: RViz Navigation**
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+ros2 launch turtlebot3_navigation2 rviz.launch.py
+```
+
+#### Step 4: Set Initial Pose and Send Navigation Goals
+In RViz:
+
+1. **Set Initial Pose**: Click the "2D Pose Estimate" button and click/drag on the map to set the robot's starting position (should match Gazebo spawn at entrance).
+2. **Send Goals**: Click the "2D Nav Goal" button and set goals for:
+   - **Goal 1**: Table 1 (approximately x=2.0, y=-1.0)
+   - **Goal 2**: Kitchen zone (approximately x=0.0, y=-3.0)
+   - **Goal 3**: Table 3 (approximately x=-2.0, y=-1.0)
+
+**Tips**:
+- Ensure the initial pose is accurate for localization
+- Watch the global plan (green line) and local plan (red line)
+- Robot should avoid tables, chairs, and walls
+- If localization fails, re-set initial pose
+
+#### Step 5: Optional Teleoperation for Recovery
+If navigation gets stuck, open a fourth terminal for manual control:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+export TURTLEBOT3_MODEL=burger
+ros2 run turtlebot3_teleop teleop_keyboard
+```
+
+Use keyboard controls to reposition the robot, then re-set initial pose in RViz.
+
 ## Saving maps
 
 After exploring, open a new terminal, source both ROS 2 and the workspace install (if needed), then save the map:
