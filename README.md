@@ -140,7 +140,7 @@ a  s  d
 - **x**: Stop
 
 #### Complete Mission 1 Setup (All Terminals)
-Open **four terminals** simultaneously and run these commands:
+Open **five terminals** simultaneously and run these commands:
 
 **Terminal 1: Restaurant World**
 ```bash
@@ -171,7 +171,14 @@ source /opt/ros/jazzy/setup.bash
 source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
 ros2 launch restaurant_robot rviz_slam.launch.py
 ```
-This will open RViz with the laser scan from the robot and the map being built by SLAM Toolbox. Use this to verify that scan data is received and the map is updating as you drive.
+
+**Terminal 5: Static TF Publishers (for full TF tree)**
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
+ros2 launch restaurant_robot tb3_static_tf.launch.py
+```
+This publishes static transforms for base_link and base_scan frames, ensuring RViz shows the complete TF tree (odom, base_footprint, base_link, base_scan).
 
 #### Step 4: Map the Restaurant
 Use the keyboard controls to drive the TurtleBot3 around the restaurant:
