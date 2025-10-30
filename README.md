@@ -247,22 +247,10 @@ This will:
 - Load the saved map from Mission 1
 - Start Nav2 components: AMCL (localization), NavFn/Global Planner, DWA/Local Planner
 - Publish costmaps and navigation topics
-
-#### Step 3: Open RViz for Navigation Visualization
-Open a third terminal for RViz with navigation displays:
-
-```bash
-source /opt/ros/jazzy/setup.bash
-source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
-ros2 launch turtlebot3_navigation2 rviz.launch.py
-```
-
-This will:
-- Open RViz with navigation-specific displays
-- Show global/local costmaps, planned paths, and goal poses
+- Open RViz with navigation-specific displays (global/local costmaps, planned paths, goal poses)
 
 #### Complete Mission 2 Setup (All Terminals)
-Open **three terminals** simultaneously and run these commands:
+Open **two terminals** simultaneously and run these commands:
 
 **Terminal 1: Restaurant World**
 ```bash
@@ -272,21 +260,14 @@ export TURTLEBOT3_MODEL=burger
 ros2 launch restaurant_world restaurant_world.launch.py
 ```
 
-**Terminal 2: Navigation System**
+**Terminal 2: Navigation System (includes RViz)**
 ```bash
 source /opt/ros/jazzy/setup.bash
 source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map_restaurant.yaml
 ```
 
-**Terminal 3: RViz Navigation**
-```bash
-source /opt/ros/jazzy/setup.bash
-source ~/Desktop/ITDS331_ROS2_FINAL_EXAM_MODULE/ros2/install/setup.bash
-ros2 launch turtlebot3_navigation2 rviz.launch.py
-```
-
-#### Step 4: Set Initial Pose and Send Navigation Goals
+#### Step 3: Set Initial Pose and Send Navigation Goals
 In RViz:
 
 1. **Set Initial Pose**: Click the "2D Pose Estimate" button and click/drag on the map to set the robot's starting position (should match Gazebo spawn at entrance).
@@ -301,7 +282,7 @@ In RViz:
 - Robot should avoid tables, chairs, and walls
 - If localization fails, re-set initial pose
 
-#### Step 5: Optional Teleoperation for Recovery
+#### Step 4: Optional Teleoperation for Recovery
 If navigation gets stuck, open a fourth terminal for manual control:
 
 ```bash
